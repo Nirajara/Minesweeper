@@ -232,7 +232,7 @@ public class MinesweeperGUI {
                                 break;
                             case 5:
                                 gameCells[i][j].setText("5");
-                                gameCells[i][j].setForeground(Color.YELLOW);
+                                gameCells[i][j].setForeground(Color.ORANGE);
                                 break;
                             case 6:
                                 gameCells[i][j].setText("6");
