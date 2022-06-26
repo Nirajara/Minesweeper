@@ -348,7 +348,7 @@ public class MinesweeperGUI {
         JLabel mineText = new JLabel("Enter number of mines:");
 
         instructionText.setSize(instructionText.getPreferredSize());
-        fieldText.setSize(fieldText.getPreferredSize());
+        fieldText.setSize(instructionText.getPreferredSize());
         mineText.setSize(mineText.getPreferredSize());
 
         instructionText.setLocation(getCenter(customMenu.getWidth(), instructionText.getWidth()), customMenu.getHeight() / 10);
@@ -361,7 +361,7 @@ public class MinesweeperGUI {
         fieldInput.setSize(menuItemWidth / 4, menuItemHeight);
         mineInput.setSize(menuItemWidth / 4, menuItemHeight);
 
-        fieldInput.setLocation(fieldText.getX() + fieldText.getWidth() + spacing, fieldText.getY() - spacing);
+        fieldInput.setLocation(fieldText.getX() + fieldText.getWidth() - spacing - spacing - spacing - 2, fieldText.getY() - spacing);
         mineInput.setLocation(mineText.getX() + mineText.getWidth() + spacing, mineText.getY() - spacing);
 
         JButton submit = makeMenuButton("Submit", getCenter(customMenu.getWidth(), menuItemWidth), mineText.getY() + (mineText.getHeight() * 3));
