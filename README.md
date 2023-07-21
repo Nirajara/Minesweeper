@@ -19,7 +19,7 @@ Go to the project's directory and run the following commands:
 
 `javac minesweeper/Main.java`
 
-`java minesweeper/Main.java`
+`java minesweeper/Main`
 
 If the commands aren't working, it might be because you need the JDK package or it is not properly set up. 
 
